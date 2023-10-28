@@ -10,7 +10,7 @@ function TestComponent({ selector, effect }) {
 
   useEffect(() => effect(items), [items]);
 
-  return null; 
+  return null;
 }
 
 test("should return default value at the start", () => {
